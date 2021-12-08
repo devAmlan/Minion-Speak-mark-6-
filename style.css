@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body{
   background-color:#F6F6F6;
   margin:0;
   padding:0;
+  font-family: 'PT Sans', sans-serif;
 }
 .heading{
   text-align:center;
@@ -21,30 +23,60 @@ body{
 #inputtext{
   width:300px;
   height:100px;
-  border:2px solid rebeccapurple;
+  border:2px solid #B980F0;
   outline:none;
   font-size:16px;
   padding:8px;
   font-family: monospace;
+  border-radius:8px;
+  
 }
 #translatebtn{
    margin:10px;
    width:110px;
    height:35px;  
-   font-size:16px;
-
+   font-size:18px;
+   background-color: #B980F0;
+   border:none;
+   border-radius:8px;
+   color:#000000;
+   font-family: 'PT Sans', sans-serif;
+   font-weight:900;
+   cursor: pointer;
 } 
 .outputarea{
     display:flex;
   justify-content:center;
-  align-items:center;  
+  align-items:center;
+  font-family: 'PT Sans', sans-serif;  
 }
 #outputresult{
     width:300px;
     height:100px;
-    border:2px solid rebeccapurple;
+    border:2px solid #B980F0;
     outline:none;
     font-family: monospace;
     font-size:18px;
     padding:8px;
+    border-radius:8px;
+}
+.footer{
+  margin-top:150px;
+  width:100%;
+  height:200px;
+  background-color:#B980F0;
+  text-align:center;
+  color:#FFFFFF;
+}
+.footer .fa-twitter{
+  font-size:30px;
+  cursor: pointer;
+  margin-top:5px;
+  color: #000000;
+}
+.footer .fa-github{
+  font-size:30px;
+  cursor: pointer;
+  margin-top:10px;
+  color: #000000;
 }
