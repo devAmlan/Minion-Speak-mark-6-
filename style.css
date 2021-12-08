@@ -1,0 +1,50 @@
+body{
+  background-color:#F6F6F6;
+  margin:0;
+  padding:0;
+}
+.heading{
+  text-align:center;
+
+  margin-bottom:50px;
+}
+.heading h3{
+  font-size:25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.inputarea{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+#inputtext{
+  width:300px;
+  height:100px;
+  border:2px solid rebeccapurple;
+  outline:none;
+  font-size:16px;
+  padding:8px;
+  font-family: monospace;
+}
+#translatebtn{
+   margin:10px;
+   width:110px;
+   height:35px;  
+   font-size:16px;
+
+} 
+.outputarea{
+    display:flex;
+  justify-content:center;
+  align-items:center;  
+}
+#outputresult{
+    width:300px;
+    height:100px;
+    border:2px solid rebeccapurple;
+    outline:none;
+    font-family: monospace;
+    font-size:18px;
+    padding:8px;
+}
